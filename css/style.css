@@ -1,0 +1,52 @@
+body{
+  color: white;
+}
+
+.list-inline li{
+  padding: 0px 10px;
+}
+
+.list-inline li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+
+.text-icon{
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  align-self: center;
+  margin: 0 25px;
+}
+
+.container-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.text-icon-2{
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  align-self: center;
+  margin: 0 25px;
+}
+
+.my-text-area{
+ height: 200px;
+}
+
+.circle-icon{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 10px;
+  font-size: 14px;
+}
+  
+
+
