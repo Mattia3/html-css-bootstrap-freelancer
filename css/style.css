@@ -43,6 +43,69 @@ body{
   margin: 0 10px;
   font-size: 14px;
 }
+
+:root{
+  --bs-dark-rgb: 44,62,80;
+  --bs-success-rgb: 26,188,156;
+}
+
+@media only screen and (max-width: 576px){
+ .flex-column .w-25{
+    width: 324px !important; 
+  }
+
+  .flex-column .w-25 img{
+    width: 100%;
+  }
   
+  .text-minuscolo{
+    font-size: 15px;
+  }
+}
+
+.hover-facebook:hover{
+  background-color: blue;
+}
+
+.hover-google:hover{
+  background-color: #c51717db;
+}
+
+.hover-twitter:hover{
+  background-color: rgba(10, 170, 245, 0.795);
+}
+
+.hover-linkedin:hover{
+  background-color: #0a66c2;
+}
+
+.my-text-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 67px 40px;
+}
+.my-cont-img-hover{
+  position: relative;
+}
+
+.my-container-img:hover .my-text-image{
+  opacity: 1;
+}
+
+
+
+
+
+ 
+
+
+
 
 
